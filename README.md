@@ -1,4 +1,4 @@
-# sbMinimalAPI Project
+# sbMinimalAPI 
 <!--
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/your-username/sbMinimalAPI)](https://github.com/your-username/sbMinimalAPI/issues)
