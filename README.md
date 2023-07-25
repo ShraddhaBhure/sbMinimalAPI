@@ -1,14 +1,15 @@
 # sbMinimalAPI Project
-
+<!--
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/your-username/sbMinimalAPI)](https://github.com/your-username/sbMinimalAPI/issues)
 [![GitHub stars](https://img.shields.io/github/stars/your-username/sbMinimalAPI)](https://github.com/your-username/sbMinimalAPI/stargazers)
 
-![Project Logo](./path/to/project-logo.png)
+![Project Logo](./path/to/project-logo.png)-->
 
 ## Overview
 
 sbMinimalAPI is a .NET application that showcases the use of Minimal API and follows the principles of Clean Architecture. The project aims to provide a concise and well-structured codebase for building web APIs.
+
 
 ## Features
 
@@ -26,17 +27,10 @@ sbMinimalAPI is a .NET application that showcases the use of Minimal API and fol
   - DELETE: Delete records.
   - GetById: Retrieve specific data by ID.
 
-## Getting Started
 
 ### Prerequisites
 
-- .NET SDK (version x.x.x or higher)
+- .NET SDK (version.Net 6)
 - SQL Server
 
-### Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/sbMinimalAPI.git
-cd sbMinimalAPI
