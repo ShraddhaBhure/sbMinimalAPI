@@ -3,6 +3,7 @@ using Application.Posts.Queries;
 using Domain.Models;
 using MediatR;
 using MinimalAPI.Abstraction;
+using MinimalAPI.Filters;
 
 namespace MinimalAPI.EndpointDefinitions
 {
@@ -16,9 +17,10 @@ namespace MinimalAPI.EndpointDefinitions
             /////adding mideator in minimal api
             posts.MapGet("/{id}",GetPostById )
                 .WithName("GetPostById");   /////Specific Metadata- provides information , here to get specific location after getting api data
-            posts.MapPost("/", CreatePost);
+            posts.MapPost("/", CreatePost).AddEndpointFilter<PostValidationFilters>();
+
             posts.MapGet("/", GetAllPosts);
-            posts.MapPut("/{id}", UpdatePost);
+            posts.MapPut("/{id}", UpdatePost).AddEndpointFilter<PostValidationFilters>();
             posts.MapDelete("/{id}", DeletePost);
         }
 
